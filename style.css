@@ -409,3 +409,28 @@ h2{
     border-radius: 5px;
     padding: 5px;
 }
+
+.categories{
+    width: 450px;
+    height: 600px;
+    background: white;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    margin-top: 100px;
+    border: 2px solid black;
+    
+}
+.list{
+    padding: 15px;
+  
+   font-size: 18px;
+}
+.llist{
+    padding-bottom: 15px;
+   
+}
