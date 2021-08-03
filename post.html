@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>SELL PAGE</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="C:\Users\thryl\ecommerce website\style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>    
+    <body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">olx </h2>
+            </div>
+        </div><hr>    
+    </div>
+    <div class="adpost">
+        <h2>POST YOUR AD</h2>
+        <form action="process.php" method="POST">
+        <div class="elements">
+            <lebel>Brand Name : </lebel>
+            <input type="text" name="brandName" class="label-box">
+        </div> 
+        <br>
+        <div class="elements">
+            <lebel>Title : </lebel>
+            <input type="text" name="title" class="label-box">
+        </div> 
+        <br>
+        <div class="elements">
+            <lebel>Description : </lebel>
+            <textarea name = "message" class="dbox"></textarea>
+        </div><hr>
+        <h1>Set A Price</h1>
+        <div>
+            <lebel>Price : </lebel>
+            <input type="number" name="price" class="price" value="100">
+        </div>
+        <br><hr>
+        <h1>Upload Picture</h1>
+        <p>Click on the "Choose File" button to upload a file:</p>
+        <form action="/action_page.php">
+            <input type="file" id="myFile" class="image" name="filename">
+            </form><hr>
+        <h1>Contact Info</h1>
+        <form action="/action_page.php">
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" class = "phone"name="phone" placeholder="Enter 10 digit ph.no"><br>
+            <input type="submit" class="sub">
+        </form>
+    </div>
+        </body>
+    </html>
