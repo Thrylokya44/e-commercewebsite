@@ -427,10 +427,17 @@ h2{
 }
 .list{
     padding: 15px;
-  
    font-size: 18px;
 }
 .llist{
     padding-bottom: 15px;
-   
+}
+.nav-link{
+    color: blue;
+}
+.nav-link:hover
+{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
 }
